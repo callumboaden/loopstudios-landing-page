@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Loopstudios landing page</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="container">
+          <div class="navbar">
+            <div class="logo">
+              <img src="images/logo.svg" alt="logo" />
+            </div>
+            <svg
+              class="close"
+              width="20"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z"
+                fill="#FFF"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <svg
+              class="hamburger"
+              width="24"
+              height="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g fill="#FFF" fill-rule="evenodd">
+                <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
+              </g>
+            </svg>
+            <nav>
+              <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Support</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="hero">
+            <h1>Immersive experiences that deliver</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="row">
+        <div class="col-left">
+          <img src="images/desktop/image-interactive.jpg" alt="Interactive" />
+        </div>
+        <div class="col-right">
+          <h2>The leader in interactive VR</h2>
+          <p>
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </div>
+      <div class="gallery">
+        <h2>Our creations</h2>
+        <a href="#" class="btn">See all</a>
+        <div class="gallery-header"></div>
+        <div class="gallery-grid">
+          <div class="gallery-image">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="images/desktop/image-deep-earth.jpg"
+              />
+              <img src="images/mobile/image-deep-earth.jpg" alt="Deep earth" />
+            </picture>
+            <div class="gallery-image-content"><h3>Deep earth</h3></div>
+          </div>
+          <div class="gallery-image">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="images/desktop/image-night-arcade.jpg"
+              />
+              <img
+                src="images/mobile/image-night-arcade.jpg"
+                alt="Night arcade"
+              />
+            </picture>
+            <div class="gallery-image-content"><h3>Night arcade</h3></div>
+          </div>
+          <div class="gallery-image">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="images/desktop/image-soccer-team.jpg"
+              />
+              <img
+                src="images/mobile/image-soccer-team.jpg"
+                alt="Soccer team"
+              />
+            </picture>
+            <div class="gallery-image-content"><h3>Soccer Team VR</h3></div>
+          </div>
+          <div class="gallery-image">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="images/desktop/image-grid.jpg"
+              />
+              <img src="images/mobile/image-grid.jpg" alt="The Grid" />
+            </picture>
+            <div class="gallery-image-content"><h3>The Grid</h3></div>
+          </div>
+          <div class="gallery-image">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="images/desktop/image-from-above.jpg"
+              />
+              <img
+                src="images/mobile/image-from-above.jpg"
+                alt="From up above"
+              />
+            </picture>
+            <div class="gallery-image-content"><h3>From up above</h3></div>
+          </div>
+          <div class="gallery-image">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="images/desktop/image-pocket-borealis.jpg"
+              />
+              <img
+                src="images/mobile/image-pocket-borealis.jpg"
+                alt="Pocket Borealis"
+              />
+            </picture>
+            <div class="gallery-image-content"><h3>Pocket Borealis</h3></div>
+          </div>
+          <div class="gallery-image">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="images/desktop/image-curiosity.jpg"
+              />
+              <img
+                src="images/mobile/image-curiosity.jpg"
+                alt="The Curiosity"
+              />
+            </picture>
+            <div class="gallery-image-content"><h3>The Curiosity</h3></div>
+          </div>
+          <div class="gallery-image">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="images/desktop/image-fisheye.jpg"
+              />
+              <img
+                src="images/mobile/image-fisheye.jpg"
+                alt="Make it fisheye"
+              />
+            </picture>
+            <div class="gallery-image-content"><h3>Make it fisheye</h3></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--
+    Night arcade Soccer team VR The grid From up above VR Pocket borealis The
+    curiosity Make it fisheye 
+    -->
+    <footer>
+      <div class="container">
+        <div class="col-left">
+          <div class="logo-sm">
+            <img src="images/logo.svg" alt="logo" />
+          </div>
+          <nav>
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Events</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">Support</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-right">
+          <div class="social">
+            <ul>
+              <li>
+                <a href=""
+                  ><img src="images/icon-facebook.svg" alt="Facebook"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/icon-twitter.svg" alt="Twitter"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/icon-pinterest.svg" alt="Pinterest"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/icon-instagram.svg" alt="Instagram"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="copyright">
+            <p>© 2022 Loopstudios. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
